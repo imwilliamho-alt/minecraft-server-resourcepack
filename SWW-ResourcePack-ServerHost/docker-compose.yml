@@ -1,0 +1,10 @@
+services:
+  sww-resourcepack:
+    image: nginx:alpine
+    container_name: sww-resourcepack
+    restart: unless-stopped
+    ports:
+      - "8088:80"
+    volumes:
+      - ./packs:/usr/share/nginx/html:ro
+      - ./nginx.conf:/etc/nginx/conf.d/default.conf:ro

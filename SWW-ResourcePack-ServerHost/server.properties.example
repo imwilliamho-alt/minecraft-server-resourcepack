@@ -1,0 +1,8 @@
+# Add/update these lines in /data/server.properties
+
+resource-pack=http://YOUR_PUBLIC_HOST:8088/SWW-Java-v0.8.1-ModelFix.zip
+resource-pack-sha1=7576ca50943d2fccc1cecfab5530587b9448bfd8
+require-resource-pack=true
+
+# Optional prompt text
+resource-pack-prompt={"text":"This server uses the SWW weapon model pack.","color":"aqua"}
