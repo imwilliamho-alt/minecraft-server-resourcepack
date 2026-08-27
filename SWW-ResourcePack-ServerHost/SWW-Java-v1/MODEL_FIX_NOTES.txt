@@ -1,0 +1,13 @@
+SWW v0.8.1 model hotfix
+
+Changes:
+- DC-17 Clone Wars model recentered from X 0..2 / Y -5..3 to a normal item-model origin.
+- DC-17 uses the previously confirmed correct Z-axis hand orientation.
+- DC-15S recentered and given conservative first/third-person transforms.
+- DC-15A rebuilt inside safe element coordinate limits (no elements below Z=-16).
+- item_model IDs are unchanged.
+- plugin is unchanged; this is a resource-pack-only test.
+
+If an item still appears as plain FLINT, the problem is not model geometry:
+the client is not receiving/enabling the correct resource pack or the item does
+not have the sww:* item_model component.

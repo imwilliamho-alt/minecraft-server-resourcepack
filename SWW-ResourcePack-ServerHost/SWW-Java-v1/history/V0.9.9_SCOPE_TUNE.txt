@@ -1,0 +1,16 @@
+SWW v0.9.9 scope tuning
+
+Change from v0.9.8:
+- Scope reticle reduced substantially in apparent size.
+- Thinner/shorter white crosshair arms.
+- Smaller red center dot and diamond.
+- Smaller blue ring and side brackets.
+- Slightly lighter dark vignette.
+
+Preserved:
+- DC-17 unchanged.
+- DC-15S unchanged.
+- DC-15A stats/zoom unchanged.
+- v0.9.6 sound system unchanged.
+- Blaster bolt unchanged.
+- Lightsaber behavior/audio unchanged.

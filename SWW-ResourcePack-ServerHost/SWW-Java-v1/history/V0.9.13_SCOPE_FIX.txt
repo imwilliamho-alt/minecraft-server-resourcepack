@@ -1,0 +1,23 @@
+SWW v0.9.13 scope refinement
+
+Requested fixes:
+- Scope reticle not centered on the vanilla crosshair.
+- Visible ghosting/doubling still distracting.
+
+Applied changes:
+- Simplified the overlay to a clean cyan ring and guide marks.
+- Removed the custom inner white/red center reticle entirely.
+- The vanilla crosshair now serves as the exact center aiming point.
+- Increased font ascent to lift the overlay upward toward screen center.
+- No gray shadow is baked into the asset.
+
+Note:
+- Minecraft title rendering can still add its own subtle text shadow. This version minimizes that effect by simplifying the center geometry.
+
+Preserved:
+- DC-17 unchanged.
+- DC-15S unchanged.
+- DC-15A damage/rate/zoom unchanged.
+- v0.9.6 audio unchanged.
+- Blaster bolt unchanged.
+- Lightsaber behavior/audio unchanged.

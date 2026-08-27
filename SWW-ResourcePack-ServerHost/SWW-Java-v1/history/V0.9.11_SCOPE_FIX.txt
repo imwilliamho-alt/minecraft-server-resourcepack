@@ -1,0 +1,20 @@
+SWW v0.9.11 scope tuning
+
+Requested fixes:
+- Reticle lines were too thick.
+- Scope overlay appeared vertically offset.
+
+Applied changes:
+- Crosshair lines made thinner and shorter.
+- Center ring and central diamond reduced.
+- Corner guides thinned and moved slightly inward.
+- Font ascent/height reduced to bring overlay closer to center.
+- Vignette remains very light.
+
+Preserved:
+- DC-17 unchanged.
+- DC-15S unchanged.
+- DC-15A damage/rate/zoom unchanged.
+- v0.9.6 audio unchanged.
+- Blaster bolt unchanged.
+- Lightsaber behavior/audio unchanged.

@@ -1,0 +1,19 @@
+SWW v1.0.4 THINRING
+
+Base:
+- v1.0.2-MICROADJ2, the version where the DC-15A reticle alignment was confirmed correct.
+
+Only visual change:
+- Removed the split upper/lower cyan semicircles.
+- Replaced them with ONE complete circular ring.
+- Circle center remains exactly at the previously calibrated texture point (127,147).
+- Ring line width is 1 pixel.
+- Outer HUD brackets, font ascent/height, white crosshair, red center dot and all gameplay logic are unchanged.
+
+No changes to:
+- DC-17
+- DC-15S
+- DC-15A stats / zoom logic
+- Lightsabers
+- Blaster bolts
+- Audio

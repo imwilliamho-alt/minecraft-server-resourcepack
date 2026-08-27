@@ -1,0 +1,12 @@
+SWW v0.9.14
+
+Root cause identified from screenshots:
+- The scope glyph was being shown as a TITLE, which anchored the full overlay too high on screen.
+
+Applied fix:
+- Scope glyph now renders as SUBTITLE.
+- This should move the whole scope overlay downward toward the actual screen center and align it with the vanilla crosshair.
+
+What stayed the same:
+- Same scope art as v0.9.13.
+- Same weapon stats and audio.

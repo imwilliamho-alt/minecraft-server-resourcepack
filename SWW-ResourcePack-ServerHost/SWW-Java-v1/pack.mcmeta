@@ -1,0 +1,13 @@
+{
+  "pack": {
+    "description": "SWW v1.0.4 THINRING - stable aligned DC-15A full circle",
+    "min_format": [
+      88,
+      0
+    ],
+    "max_format": [
+      88,
+      0
+    ]
+  }
+}

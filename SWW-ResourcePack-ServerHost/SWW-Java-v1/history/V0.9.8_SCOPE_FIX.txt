@@ -1,0 +1,21 @@
+SWW v0.9.8 DC-15A scope
+
+v0.9.7 result:
+The dark overlay loaded but the reticle did not appear reliably.
+The four-glyph title composition is therefore removed.
+
+v0.9.8:
+- One single 256x256 bitmap glyph.
+- No multi-glyph stitching.
+- Thick high-contrast white/cyan crosshair.
+- Red center dot.
+- Circular transparent viewing area.
+- Dark vignette remains inside the same valid 256x256 glyph.
+
+Preserved:
+- DC-17 unchanged.
+- DC-15S unchanged.
+- DC-15A balance/zoom unchanged.
+- v0.9.6 sounds unchanged.
+- Blaster bolt unchanged.
+- Lightsaber behavior/audio unchanged.

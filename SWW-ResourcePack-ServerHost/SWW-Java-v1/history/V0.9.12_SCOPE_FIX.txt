@@ -1,0 +1,19 @@
+SWW v0.9.12 scope refinement
+
+Requested fixes:
+- Reticle still appeared too high.
+- Remove gray shadow from the reticle.
+
+Applied changes:
+- Removed gray/black shadow from corner guides, ring and crosshair.
+- Reduced font ascent substantially to lower the overlay on screen.
+- Kept the reticle geometry from v0.9.11.
+- Vignette remains very light.
+
+Preserved:
+- DC-17 unchanged.
+- DC-15S unchanged.
+- DC-15A damage/rate/zoom unchanged.
+- v0.9.6 audio unchanged.
+- Blaster bolt unchanged.
+- Lightsaber behavior/audio unchanged.

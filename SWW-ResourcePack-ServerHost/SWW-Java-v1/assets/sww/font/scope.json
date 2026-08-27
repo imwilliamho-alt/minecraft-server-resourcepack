@@ -1,0 +1,13 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "sww:font/dc15a_scope.png",
+      "ascent": 86,
+      "height": 128,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}
