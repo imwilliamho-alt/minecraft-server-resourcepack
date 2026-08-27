@@ -1,0 +1,18 @@
+SWW v0.9.10 scope tuning
+
+Requested change:
+- Reduce the DC-15A reticle to one-third of the previous v0.9.9 apparent size.
+
+Applied changes:
+- Central reticle geometry reduced to roughly one-third.
+- Corner guides brought inward and made thinner.
+- Dark vignette greatly lightened.
+- Font rendering height lowered so the displayed overlay is also smaller.
+
+Preserved:
+- DC-17 unchanged.
+- DC-15S unchanged.
+- DC-15A damage/rate/zoom unchanged.
+- v0.9.6 sound system unchanged.
+- Blaster bolt unchanged.
+- Lightsaber behavior/audio unchanged.

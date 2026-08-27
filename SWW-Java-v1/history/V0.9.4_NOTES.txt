@@ -1,0 +1,13 @@
+SWW v0.9.4
+
+- No armor/equipment system.
+- DC-17 unchanged.
+- DC-15S unchanged.
+- DC-15A physical optic rebuilt.
+- DC-15A ADS HUD rebuilt.
+- Blaster bolts changed to smooth blue/white particle energy beams.
+- Lightsaber swings use three original synthesized woom/vrrm sound variants.
+
+Preserved:
+- DC-15A v0.9.3 zoom/fire-rate values.
+- Lightsaber colors, damage, guard/reflect and dynamic light.

@@ -1,0 +1,42 @@
+{
+  "lightsaber.swing2": {
+    "subtitle": "subtitles.sww.lightsaber.swing",
+    "sounds": [
+      {
+        "name": "sww:lightsaber/swing2",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "blaster.dc17": {
+    "subtitle": "subtitles.sww.blaster.fire",
+    "sounds": [
+      {
+        "name": "sww:blaster/dc17",
+        "volume": 0.92,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "blaster.dc15s": {
+    "subtitle": "subtitles.sww.blaster.fire",
+    "sounds": [
+      {
+        "name": "sww:blaster/dc15s",
+        "volume": 0.98,
+        "pitch": 1.0
+      }
+    ]
+  },
+  "blaster.dc15a": {
+    "subtitle": "subtitles.sww.blaster.fire",
+    "sounds": [
+      {
+        "name": "sww:blaster/dc15a",
+        "volume": 1.0,
+        "pitch": 1.0
+      }
+    ]
+  }
+}

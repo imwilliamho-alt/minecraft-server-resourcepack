@@ -1,0 +1,22 @@
+SWW v0.9.0
+
+New:
+- Blue / Green / Red lightsabers start retracted.
+- Right-click toggles blade ON/OFF.
+- OFF uses lightsaber_*_hilt item models.
+- ON uses the full Clone Wars lightsaber model.
+- Active blade damage is 10 HP for all colors.
+- Retracted hilt damage is 1 HP.
+- Active frontal saber blocks blaster hits.
+- Sneaking while facing the shooter reflects the hit.
+- Vanilla layered prototype sounds for ignition, retraction, swing and hum.
+
+Preserved:
+- v0.8.1 DC-17 model fix.
+- DC-17 dual wield / alternating fire.
+- DC-15A ADS.
+- Heat / overheat.
+- Blue segmented blaster bolts.
+
+ServerVisuals is NOT merged in this development package yet.
+Merge only after v0.9.0 visual/function testing is approved.

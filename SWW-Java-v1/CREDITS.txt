@@ -1,0 +1,25 @@
+SWW v0.7.0 — Unified Clone Wars Resource Pack
+
+Source project:
+Forge-StarWarsCloneWars
+https://github.com/Pyrix25633/Forge-StarWarsCloneWars
+
+Upstream license:
+GNU General Public License v3.0 (GPL-3.0)
+
+Upstream model credits:
+The source JSON files state "Made with Blockbench".
+
+Changes made for this resource pack (2026-08-27):
+- Ported/adapted DC-17 model geometry to the SWW namespace.
+- Ported/adapted DC-15S model geometry to the SWW namespace.
+- Built a DC-15A derivative using the same DC-15S cuboid/model language.
+- Ported blue, green, and red lightsaber model geometry.
+- Replaced upstream namespace references with SWW resource-pack paths.
+- Created unified SWW-compatible textures.
+- Added Minecraft 26.2 item_model definitions.
+- IB-94 intentionally excluded.
+
+Important:
+This package is a modified adaptation and is not the original Forge mod.
+The adapted source JSON files are included in SOURCE_MODELS/.

@@ -1,0 +1,11 @@
+SWW v0.9.2
+
+Changes:
+- DC-15S Heat capacity / magazine-like firing capacity increased from 15 to 30.
+- DC-15A shot cooldown increased from 500 ms to 800 ms.
+- DC-15A ADS magnification increased from -0.825 to -0.90 speed/FOV modifier.
+- DC-15A 3D model now includes a visible optical scope with blue lenses.
+
+Preserved:
+- DC-17 stack/dual-wield fixes from v0.9.1.
+- Lightsaber toggle/guard/reflect controls from v0.9.1.

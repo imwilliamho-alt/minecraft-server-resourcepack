@@ -1,0 +1,16 @@
+SWW v0.9.5
+
+Fixes based on in-game testing:
+- Fixed DC-15A scope custom-font texture path.
+  Texture is now assets/sww/textures/font/dc15a_scope_overlay.png
+  and scope.json references sww:font/dc15a_scope_overlay.png.
+- Removed the v0.9.4 particle/firework-style bolt.
+- Restored the previously confirmed dense BlockDisplay blue outer / light-blue core bolt.
+- Rebuilt lightsaber swing audio with lower hum, smoother Doppler pitch bend,
+  softer air movement and four randomized variants.
+
+Preserved:
+- DC-17 configuration and behavior unchanged.
+- DC-15S configuration and behavior unchanged.
+- DC-15A zoom, fire rate and physical scope model unchanged from v0.9.4.
+- Lightsaber colors, damage, guard/reflect and dynamic light unchanged.

@@ -1,0 +1,46 @@
+StarWarsWeapons v1.0.1 MICRO-ADJUST
+
+This build consolidates the tested v0.9.x work into one final package.
+
+#Final weapon set
+- DC-15A Blaster Rifle
+- DC-15S Blaster Carbine
+- DC-17 Blaster Pistol
+- Blue / Green / Red / Purple Lightsabers
+- No armor/equipment system
+- No IB-94 in this release
+
+#Preserved gameplay
+- DC-17: max stack 2; automatic dual-hand split; alternating left/right fire; independent Heat.
+- DC-15S: Heat capacity 30.
+- DC-15A: 800 ms fire cooldown and ADS while sneaking.
+- Lightsabers: all colors deal 10 HP while active; ignition/retraction; guard/reflect; dynamic level-14 light.
+- Stable dense BlockDisplay blue-core blaster bolt is preserved.
+
+#Final audio
+- Lightsaber swing: fixed `swing2.wav` only (no random swing variants).
+- DC-17: `Blaster shot 02`, baked at 2.0x tempo with pitch preserved.
+- DC-15S: `blaster shot single 5`, original tempo.
+- DC-15A: `Heavy blaster shot 05`, baked at 2.0x tempo with pitch preserved.
+- Resource-pack language files prevent raw `subtitles.sww.*` keys from appearing.
+
+#Final DC-15A scope decisions
+The scope went through repeated in-game calibration. The screenshots established that the custom overlay was horizontally almost correct but its center sat about 131 screen pixels above the vanilla crosshair on the test setup.
+
+Final calibration:
+- measured vanilla crosshair: approximately `(1021.5, 686.5)` on the 2047x1331 reference capture;
+- measured custom scope center: approximately `(1025.5, 555.5)`;
+- required correction: approximately `(-4, +131)` screen pixels;
+- using the measured render scale, the artwork is shifted about `(-1, +33)` pixels inside the 256x256 font texture;
+- font ascent is returned to a known-valid value; alignment is baked into the artwork rather than guessed via ascent changes;
+- Adventure `ShadowColor.none()` is applied to the scope component to disable the Minecraft text shadow instead of trying to paint over it in the texture;
+- ADS movement-speed modifier is set to `-0.999`, which is near the maximum stable zoom obtainable through the vanilla server-side movement/FOV mechanism.
+
+#Scope limitation
+This is still a pure Paper + resource-pack solution. The server cannot arbitrarily set a Java client's camera FOV to true sniper/spyglass magnification without a different client/protocol technique. This build uses the strongest stable movement/FOV narrowing available in the existing architecture.
+
+#Bedrock
+The Java resource pack does not replace a dedicated Geyser/Bedrock `.mcpack`. Bedrock visual work remains separate.
+
+
+- DC-15A scope central reticle moved upward by 10px for fine vertical alignment based on latest screenshot.

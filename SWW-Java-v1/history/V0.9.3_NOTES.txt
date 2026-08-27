@@ -1,0 +1,12 @@
+SWW v0.9.3
+
+Added:
+- Purple lightsaber, same damage and controls as all other saber colors.
+- Active lightsabers emit server-side real block light level 14 that follows the player.
+- Emissive saber textures for shader/resource-pack compatibility.
+- DC-15A ADS displays a centered graphical scope reticle supplied by the resource pack.
+
+Preserved / intentionally untouched:
+- DC-17 balance and behavior.
+- DC-15S balance and behavior.
+- DC-15A v0.9.2 zoom strength and fire rate.

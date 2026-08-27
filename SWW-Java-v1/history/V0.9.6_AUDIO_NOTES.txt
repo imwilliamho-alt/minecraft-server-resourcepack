@@ -1,0 +1,21 @@
+v0.9.6 final audio mapping
+
+Lightsaber swing:
+- swing2.wav only
+- Original playback speed
+- No random variants
+- No extra Minecraft sweep/beacon swing layer
+
+DC-17:
+- Blaster shot 02
+- Playback speed: 2.0x
+- Tempo doubled while pitch is preserved
+
+DC-15S:
+- blaster shot single 5
+- Playback speed: 1.0x
+
+DC-15A:
+- Heavy blaster shot 05
+- Playback speed: 2.0x
+- Tempo doubled while pitch is preserved

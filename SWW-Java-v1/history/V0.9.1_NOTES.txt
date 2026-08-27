@@ -1,0 +1,13 @@
+SWW v0.9.1
+
+Gameplay changes:
+- DC-17 cold pistols can stack to 2 again.
+- Held stack of 2 + empty offhand still auto-splits into dual wield.
+- DC-15A ADS magnification increased to approximately 2x the prior setting.
+- Normal right click toggles lightsaber blade.
+- Sneak + right click enters guard and no longer toggles the blade.
+- Release Sneak exits guard.
+- While guarding, face the shooter to block SWW blaster bolts.
+- Swing while guarding opens a brief reflect window.
+
+Visual model files are otherwise unchanged from v0.9.0.
